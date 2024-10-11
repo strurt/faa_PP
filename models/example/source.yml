@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: my_new_model
+    description: "jrfhgirfskads"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "A sample name"
+      - name: value
+        description: "A sample value"
